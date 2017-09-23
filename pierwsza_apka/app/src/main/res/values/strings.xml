@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">pierwsza_apka</string>
+    <string name="NIEBIESKI">NIEBIESKI</string>
+    <string name="CZERWONY">CZERWONY</string>
+    <string name="ZOLTY">ZOLTY</string>
+    <string name="SZARY">SZARY</string>
+    <string name="ZIELONY">ZIELONY</string>
 </resources>
