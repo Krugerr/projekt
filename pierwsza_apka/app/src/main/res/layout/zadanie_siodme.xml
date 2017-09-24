@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/Edyt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:hint="Wpisz coś, cokolwiek:" />
+
+    <Button
+        android:id="@+id/Przycisk"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/Edyt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        android:text="Wyświetl"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/Edyt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Przycisk"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+
+</RelativeLayout>
